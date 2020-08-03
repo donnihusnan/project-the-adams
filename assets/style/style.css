@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: white;
+  background-image: url("latar.jpg");
+  background-size: 130%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  width: 100%;
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+}
+
+.head {
+	text-align: center;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	margin-top: 0px;
+	background-image: url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.koamnewsnow.com/content/uploads/2020/03/fire-background.jpg");
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+
+.header img {
+	width: 200px;
+	height: 30px;
+}
+
+
+li img {
+	height: 40px;
+}
+
+.header {
+	list-style-type: none;
+	display: inline-block;
+	border: 6px solid black;
+	border-radius: 24px 16px 24px 16px;
+	background-color: black;
+	position: relative;
+	bottom: 6px;
+
+}
+
+li:not(.header) {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-top: 2px;
+	border: 2px solid black;
+	border-radius: 128px 128px 128px 128px;
+	background-color: black;
+	height: 45px;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+
+.footer{
+	color: whitesmoke;
+	font-size: 15px;
+	border: 2px solid black;
+	justify-content: center;
+	position: relative;
+	left: 520px;
+	width: 250px;
+	height: 26px;
+	background-color: black;
+	border-radius: 128px 128px 128px 128px;
+}
+
+h4 {
+	color: whitesmoke;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 10px;
+}
+
+.personil img {
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-top: 180px;
+}
+
+.paragraf {
+	color: rgb(233, 240, 241);
+	text-shadow: rgb(0, 0, 0) 4px 3px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.container {
+  width: 100%;
+  
+}
+
+main {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 0px;
+	color: whitesmoke;
+	opacity: 0.8;
+}
+
+
+.contents1 {
+  border: 3px solid black;
+  padding: 0px 40px 5px 40px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 100px;
+  border-radius: 8px; 
+  text-shadow: rgb(104, 2, 2) 1px 1px;
+  background-image: url("latarcontent6.jpeg");
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+.contents2 {
+  border: 3px solid rgb(0, 0, 0);
+  padding: 0px 40px 5px 40px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 100px;
+  border-radius: 8px; 
+  text-shadow: rgb(104, 2, 2) 1px 1px;
+  background-image: url("latarcontent8.jpeg");
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+
+
+.contents3 {
+  border: 3px solid black;
+  padding: 0px 40px 5px 40px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 100px;
+  border-radius: 8px; 
+  text-shadow: rgb(104, 2, 2) 1px 1px;
+  background-image: url("latarcontent5.jpeg");
+  opacity: 0.8;
+}
+
+
+a main:hover {
+	opacity: 1.0;
+}
+
+footer {
+	text-align: center;
+	border-top: 2px solid black;
+	background-color: black;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.koamnewsnow.com/content/uploads/2020/03/fire-background.jpg");
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + main {
+  padding-top: 102px;
+}
